@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.noScroll-Bar::-webkit-scrollbar{
+    width: 3px;
+    background-color:rgb(236, 235, 235);
+}
+
+.noScroll-Bar::-webkit-scrollbar-thumb{
+    width: 3px;
+
+}
+
+.removeXScroll-Bar::-webkit-scrollbar {
+    width: 0;  
+    
+}
+.removeXScroll-Bar::-webkit-scrollbar {
+    width: hidden;  
+    
+}
+
+
+
+    @keyframes progress {
+      0% { width: 0%; }
+      100% { width: 100%; }
+      50% { width: 0%; }
+      0% { width: 100%; }
+
+    }
+    .animate-progress {
+      animation: progress 3s ease-in-out infinite;
+    }
+  
